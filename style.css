@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+body{
+    min-height: 100vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+li{
+    padding-left: -1rem;
+    background-color: rgba(249, 56, 34, 1);
+    border-radius: 2rem;
+    width: 200px;
+    text-align: center;
+}
+
+li:hover{
+    background-color: white;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+#SteamDeck{
+    display: flex;
+    justify-content: center;
+}
+
+#SteamDeck img{
+    height: 400px;
+    object-fit: cover;
+}
+
+
+/* Thanks to unrealapex for the gradient effect - it can be found here: https://gist.github.com/unrealapex/8e6cdc93cbfba75ce6b23da3945af723 */
+
+.gradient {
+    background: linear-gradient(137.42deg, #1a75ff, #6a5df8, #c957e6, #d2486b, #bf44ac, #ab47d0, #9460f3, #46aced, #4ec4a3, #b8ba05, #d2486b);
+    background-size: 2200% 2200%;
+    -webkit-animation: DeckGradient 60s ease infinite;
+    -moz-animation: DeckGradient 60s ease infinite;
+    animation: DeckGradient 60s ease infinite;
+}
+
+@-webkit-keyframes DeckGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes DeckGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes DeckGradient {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
