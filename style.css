@@ -15,6 +15,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    text-align: center;
 }
 
 ul{
@@ -80,3 +81,13 @@ ul li a{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+@media only screen and (max-width: 768px) {
+    #SteamDeck img{
+        height: 250px;
+    }
+    ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+  }
