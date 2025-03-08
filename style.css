@@ -18,6 +18,11 @@ body{
     text-align: center;
 }
 
+h1{
+    -webkit-text-stroke: 1px black;
+    text-stroke: 1px black;
+}
+
 ul{
     display: flex;
     gap: 2.5rem;
@@ -27,6 +32,7 @@ ul{
 li{
     padding-left: -1rem;
     background-color: rgba(249, 56, 34, 1);
+    border: 2px solid black;
     border-radius: 2rem;
     width: 200px;
     text-align: center;
