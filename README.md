@@ -1,8 +1,5 @@
-# Steam Deck Guides - [steamdeck.guide](https://steamdeck.guide)
+# Steam Deck Guide
 
-## Related GitHub Repositories
-- [Hardware](https://github.com/NKkrisz/Steam-Deck-Hardware)
-- [Software](https://github.com/NKkrisz/Steam-Deck-Software)
-- [FAQ](https://github.com/NKkrisz/Steam-Deck-FAQ)
+To make changes to [steamdeck.guide](https://steamdeck.guide) site [contribute here](https://github.com/NKkrisz/steamdeck.guide)
 
-Feel free to add new content or fix mistakes by making a pull request to any of these repositories!
+To add new content or fix mistakes in the different parts of the guide - [main.steamdeck.guide](https://main.steamdeck.guide) - [contribute here](https://github.com/NKkrisz/Steam-Deck-Guide)
