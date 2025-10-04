@@ -17,20 +17,18 @@ body {
 body {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-    137.42deg,
-    #1a75ff,
-    #6a5df8,
-    #c957e6,
-    #d2486b,
-    #bf44ac,
-    #ab47d0,
-    #9460f3,
-    #46aced,
-    #4ec4a3,
-    #b8ba05,
-    #d2486b
-  );
+  background: linear-gradient(137.42deg,
+      #1a75ff,
+      #6a5df8,
+      #c957e6,
+      #d2486b,
+      #bf44ac,
+      #ab47d0,
+      #9460f3,
+      #46aced,
+      #4ec4a3,
+      #b8ba05,
+      #d2486b);
   background-size: 2200% 2200%;
   animation: DeckGradient 60s ease infinite;
 }
@@ -39,9 +37,11 @@ body {
   0% {
     background-position: 0% 50%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 50%;
   }
@@ -61,9 +61,8 @@ body {
 
 h1 {
   font-size: 2.5rem;
-  -webkit-text-stroke: 1px black;
-  text-stroke: 1px black;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
 #SteamDeck {
@@ -75,6 +74,13 @@ h1 {
   height: 400px;
   object-fit: cover;
   max-width: 100%;
+}
+
+#Credits {
+  margin-top: -1.5rem;
+  font-size: 1rem;
+  text-shadow: 2px 2px black;
+  text-align: center;
 }
 
 #LinkButtons {
@@ -133,7 +139,8 @@ footer {
   gap: 0.5rem;
 }
 
-footer a:hover {
+footer a:hover,
+#Credits a:hover {
   color: rgba(249, 56, 34, 1);
 }
 
